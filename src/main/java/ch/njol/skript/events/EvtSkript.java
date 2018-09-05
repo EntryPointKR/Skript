@@ -34,7 +34,7 @@ import ch.njol.skript.lang.Literal;
 import ch.njol.skript.lang.SelfRegisteringSkriptEvent;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.Trigger;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * @author Peter Güttinger

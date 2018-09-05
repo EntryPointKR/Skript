@@ -39,7 +39,7 @@ import ch.njol.skript.aliases.ItemType;
 import ch.njol.skript.bukkitutil.PlayerUtils;
 import ch.njol.skript.classes.Changer;
 import ch.njol.skript.util.Experience;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * @author Peter Güttinger

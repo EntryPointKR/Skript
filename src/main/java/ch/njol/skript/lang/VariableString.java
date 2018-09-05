@@ -54,7 +54,7 @@ import ch.njol.skript.util.Utils;
 import ch.njol.util.Checker;
 import ch.njol.util.Kleenean;
 import ch.njol.util.StringUtils;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 import ch.njol.util.coll.iterator.SingleItemIterator;
 
 /**

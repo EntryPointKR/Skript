@@ -38,7 +38,7 @@ import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.util.Checker;
 import ch.njol.util.Kleenean;
 import ch.njol.util.Predicate;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * @author Peter Güttinger

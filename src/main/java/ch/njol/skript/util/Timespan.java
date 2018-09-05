@@ -31,7 +31,7 @@ import ch.njol.skript.localization.Language;
 import ch.njol.skript.localization.LanguageChangeListener;
 import ch.njol.skript.localization.Noun;
 import ch.njol.util.NonNullPair;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 import ch.njol.yggdrasil.YggdrasilSerializable;
 
 /**

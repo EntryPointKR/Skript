@@ -46,7 +46,7 @@ import ch.njol.skript.log.ErrorQuality;
 import ch.njol.skript.registrations.Classes;
 import ch.njol.skript.util.Experience;
 import ch.njol.util.Kleenean;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 import ch.njol.util.coll.iterator.IteratorIterable;
 
 /**

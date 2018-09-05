@@ -71,7 +71,7 @@ import ch.njol.skript.util.Time;
 import ch.njol.skript.util.Timeperiod;
 import ch.njol.skript.util.Timespan;
 import ch.njol.util.StringUtils;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * @author Peter Güttinger

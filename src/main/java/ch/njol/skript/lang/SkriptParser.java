@@ -60,7 +60,7 @@ import ch.njol.skript.util.Utils;
 import ch.njol.util.Kleenean;
 import ch.njol.util.NonNullPair;
 import ch.njol.util.StringUtils;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * Used for parsing my custom patterns.<br>
@@ -313,7 +313,7 @@ public class SkriptParser {
 				if (expr.startsWith("\"") && expr.endsWith("\"") && expr.length() != 1 && (types[0] == Object.class || CollectionUtils.contains(types, String.class))) {
 					e = VariableString.newInstance("" + expr.substring(1, expr.length() - 1));
 				} else {
-					e = parse(expr, (Iterator) Skript.getExpressions(types), null);
+					e = SkriptParser.<Expression<?>>parse(expr, (Iterator) Skript.getExpressions(types), null);
 				}
 				if (e != null) {
 					for (final Class<? extends T> t : types) {

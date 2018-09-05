@@ -37,7 +37,7 @@ import ch.njol.skript.config.validate.SectionValidator;
 import ch.njol.skript.log.SkriptLogger;
 import ch.njol.util.NonNullPair;
 import ch.njol.util.NullableChecker;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 import ch.njol.util.coll.iterator.CheckedIterator;
 
 /**

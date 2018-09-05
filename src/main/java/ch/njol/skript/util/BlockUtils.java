@@ -31,7 +31,7 @@ import org.bukkit.material.Directional;
 import org.eclipse.jdt.annotation.Nullable;
 
 import ch.njol.skript.Skript;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 
 /**
  * TODO !Update with every version [blocks] - also update aliases-*.sk

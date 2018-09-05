@@ -32,7 +32,7 @@ import ch.njol.skript.lang.Literal;
 import ch.njol.skript.registrations.Classes;
 import ch.njol.skript.registrations.Converters;
 import ch.njol.util.Checker;
-import ch.njol.util.coll.CollectionUtils;
+import ch.njol.util.CollectionUtils;
 import ch.njol.util.coll.iterator.ArrayIterator;
 
 /**

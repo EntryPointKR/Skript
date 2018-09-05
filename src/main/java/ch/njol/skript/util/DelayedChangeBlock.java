@@ -383,5 +383,10 @@ public class DelayedChangeBlock implements Block {
 		}
 		return loc;
 	}
-	
+
+	@Override
+	public void setType(Material material, boolean b) {
+		// TODO: Investigation needs.
+		setType(material);
+	}
 }
